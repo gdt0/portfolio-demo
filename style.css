@@ -318,6 +318,11 @@ body {
 }
 
 @media (max-width: 768px) {
+    html, body {
+        overflow: auto;
+        height: auto;
+    }
+
     .resume-wrapper {
         margin: 1vh auto;
     }
